@@ -1,0 +1,32 @@
+Variable syntax:
+====================
+
+datatype variablename=value
+int x=100;
+
+method syntax:
+====================
+accssmodifier returntype methodname()
+{
+
+}
+
+
+public void show()
+{
+
+}
+
+
+Object
+==============
+classname ref_variablename=new constructor();
+
+Class A
+{
+}
+
+Object
+============
+A a1=new A();
+
