@@ -2,8 +2,6 @@ package javaBasics;
 
 public class FirstCode 
 {
-
-	
 	//Entry point and exit point-----single line comment
 	public static void main(String args[])
 	{
@@ -15,6 +13,8 @@ public class FirstCode
 		s1.name="Sarang";
 		s1.show();
 		MethodDemo.show();
+		
+		
 		
 	}
 	

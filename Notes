@@ -16,6 +16,23 @@ public void show()
 {
 
 }
+===============================
+6-03-2024
+============
+Datatypes
+Type casting
+
+Primitive to Object(valueOf())
+
+primitive Object to primitive(intValue())
+
+String object to primitive (parseInt())
+
+primitive to String Object(valueOf)
+
+
+
+
 
 
 Object
