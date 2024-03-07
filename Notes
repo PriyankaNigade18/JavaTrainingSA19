@@ -19,7 +19,8 @@ public void show()
 ===============================
 6-03-2024
 ============
-Datatypes
+Data types
+------------
 Type casting
 
 Primitive to Object(valueOf())

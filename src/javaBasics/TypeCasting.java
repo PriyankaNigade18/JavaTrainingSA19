@@ -55,6 +55,9 @@ public class TypeCasting {
 		System.out.println("int to char: "+ch1);
 		
 		
+		int i3=98877565;//4byte
+		long l4=i3;
+		System.out.println("int to long : "+l4);
 		
 		
 		

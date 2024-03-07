@@ -22,6 +22,19 @@ public class WrapperDemoInterviewScenario {
 		System.out.println(dd+11.11);//78.88
 		
 		
+		//String to char ---charAt(index)
+		String s3="Hello";
+		char ch=s3.charAt(3);
+		System.out.println(ch);
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		//primitive to String object
 		
