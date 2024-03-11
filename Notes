@@ -1,3 +1,11 @@
+
+
+
+https://github.com/PriyankaNigade18/JavaTrainingSA19
+
+
+
+
 Variable syntax:
 ====================
 
@@ -30,6 +38,35 @@ primitive Object to primitive(intValue())
 String object to primitive (parseInt())
 
 primitive to String Object(valueOf)
+
+====================================
+11-03-2024
+==============
+
+this keyword
+================
+user to refer current class instance variable and instance method
+
+-this keyword used to differentiate between instance and local variable
+-used invoked method
+-used to invoked any constructor
+-used to invoked any class instance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
