@@ -52,6 +52,39 @@ user to refer current class instance variable and instance method
 -used to invoked any constructor
 -used to invoked any class instance
 
+==============================
+Assignments on ControlFlow
+
+if-else
+==========
+1.Accept a number from user and validate it is even or odd number
+
+2.Accept a number from user and validate it is positivem or negative number
+
+
+ladderif
+============
+3.Accept 4 numbers from user and print greater number 
+
+Switch case
+==============
+4.Accept performance id from the user and print the result as per status
+1.Poor Performance
+2.Need to Improve
+3:Good performance
+4:Excellent performance
+5:Employee of the year
+
+
+5.Print all even numbers upto 25
+6.Print all odd numbers upro 50
+7.accept number and check whether it is prime
+(prime number which is divisible by 1 and itself)
+
+
+
+
+
 
 
 
