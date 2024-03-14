@@ -17,7 +17,7 @@ public class WhileLoopDemo {
 		System.out.println("************************");
 		
 		
-		
+		//sum of digits
 		
 		
 		int num=123,rem,sum=0;
