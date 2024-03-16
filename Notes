@@ -119,7 +119,21 @@ print() & println()
 
 
 
+15-03-2024
+=============
+EnCapsulation
+===================
+1. Write a Java program to create a class called Person 
+with private instance variables name, age. and country.
+ Provide public getter and setter methods 
+ to access and modify these variables.(PersonTest)
 
+
+
+2. Write a Java program to create a class called BankAccount
+ with private instance variables accountNumber and balance.
+  Provide public getter and setter methods to 
+  access and modify these variables.(BankAccountTest)
 
 
 
