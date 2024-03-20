@@ -200,19 +200,20 @@ Ans: Using final keyword.
 
 Data Abstraction
 ================
-It is process of hiding implementation details of software from end user.
+It is process of hiding implementation 
+details of software from end user.
 
-Abstraction achive using
+Abstraction achieve using
 ------------------------------
-1.Abstarct class
+1.Abstract class
 2.Interface
 
-1.Abstarct class
+1.Abstract class
 ===============
-1.In abstract class we can have both abstract method and non abstarct (concreate) Methods.
+1.In abstract class we can have both abstract method and non abstract (concreate) Methods.
 2.Abstract method and class we can declare using abstract keyword.
 3.Abstract class can not be instantiated.
-4.Abstract methods must be overriden by class which inherits abstract class.
+4.Abstract methods must be override by class which inherits abstract class.
 5.Using Abstract class partial abstraction is possible.
 
 Interface
