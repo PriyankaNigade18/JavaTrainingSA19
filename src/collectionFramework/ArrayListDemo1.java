@@ -16,6 +16,8 @@ public class ArrayListDemo1 {
 	 * Methods():
 	 * add(),clear(),isEmpty(),contains(),size(),addAll()
 	 * 
+	 * ArrayList is best choice for retrieve elements from list
+	 * 
 	 */
 	public static void main(String[] args) 
 	{

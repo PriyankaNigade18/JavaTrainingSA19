@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.ListIterator;
 
-public class ArrayListScenario {
+public class ArrayListScenario 
+{
 
 	public static void main(String[] args)
 	{

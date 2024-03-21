@@ -12,7 +12,7 @@ public abstract class RBIBank
 	 * 
 	 */
 	
-	public void deposit()
+	public void deposite()
 	{
 		System.out.println("RBI......Fully implemented Deposit()");
 	}

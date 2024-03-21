@@ -24,7 +24,7 @@ public class HDFC extends RBIBank
 		System.out.println("Scenario1: Child class ref and child class object ");
 		
 		HDFC h1=new HDFC();
-		h1.deposit();//inherited
+		h1.deposite();//inherited
 		h1.widthraw();//inherited
 		h1.rateOfInterest();//inherited abstract
 		h1.custDetails();//individual
@@ -38,7 +38,7 @@ public class HDFC extends RBIBank
 		System.out.println("Scenario3: Parent class ref and child class object ");
 		
 		RBIBank r1=new HDFC();
-		r1.deposit();
+		r1.deposite();
 		r1.widthraw();
 		r1.rateOfInterest();
 		
