@@ -232,10 +232,37 @@ Interface
 
 
 
+===========================================
+Text File Handling
+=====================
+We can use File class in java to create a file object
 
+To create a file Object
+-----------------------
+File fn=new File("path of file")
 
+To create a file
+--------------------
+fn.createNewFile()
 
+To write into file
+-------------------
+FileWriter wr=new FileWriter(file name)
+wr.write("write file contents")
+wr.close()
 
+To read a file
+-----------------
+Scanner sc=new scanner(System.in)
+while(sc.hasNext())
+{
+sc.next()
+
+}
+
+To delete a file
+--------------
+f1.delete()
 
 
 
