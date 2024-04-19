@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import driverSession.DriverSession;
+import helper.Utility;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 
@@ -19,6 +20,7 @@ public class AlertHandling
 		//create session
 		   driver=DriverSession.initilizeAndroidSession();	  
 		  
+		   Utility.getScreenshot(driver);
 		  //app
 		  
 		  driver.findElement(AppiumBy.accessibilityId("App")).click();
@@ -53,7 +55,7 @@ public class AlertHandling
 //	  
 	  //first option
 	  driver.findElement(AppiumBy.accessibilityId("OK Cancel dialog with a message")).click();
-	  
+	  Utility.getScreenshot(driver);
 	  //open Alert window
 	  
 	  Alert alt1=driver.switchTo().alert();
@@ -69,7 +71,7 @@ public class AlertHandling
   {
 	  //option 2
 	  driver.findElement(AppiumBy.accessibilityId("OK Cancel dialog with a long message")).click();
-	  
+	  Utility.getScreenshot(driver);
 	  //alert will open
 	  Alert alt2= driver.switchTo().alert();
 	  System.out.println("Alert 2 text is: "+alt2.getText());

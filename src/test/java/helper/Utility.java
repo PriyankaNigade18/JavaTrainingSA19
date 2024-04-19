@@ -1,6 +1,12 @@
 package helper;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.remote.RemoteWebElement;
 
 import com.google.common.collect.ImmutableMap;
@@ -9,6 +15,28 @@ import io.appium.java_client.AppiumDriver;
 
 public class Utility 
 {
+	
+	
+	public static void getScreenshot(AppiumDriver driver)
+	{
+		TakesScreenshot ts=(TakesScreenshot)driver;
+		 File temFile=ts.getScreenshotAs(OutputType.FILE);
+		 File dest=new File(System.getProperty("user.dir")+"//Screenshots//AppiumTest"+System.currentTimeMillis()+".png");
+		 
+		 try {
+			FileHandler.copy(temFile,dest);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 
+	}
+	
+	
+	
+	
+	
+	
 	
 	public static void scrolDownUpToCount(AppiumDriver driver,WebElement ele,int count)
 	{

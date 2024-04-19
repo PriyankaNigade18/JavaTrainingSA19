@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mobileAppScenarios.KeyEventTest">
+      <class name="reports.ListnersTest">
         <methods>
-          <include name="testTextArea"/>
-          <include name="setUp"/>
+          <include name="testCase2"/>
         </methods>
-      </class> <!-- mobileAppScenarios.KeyEventTest -->
+      </class> <!-- reports.ListnersTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

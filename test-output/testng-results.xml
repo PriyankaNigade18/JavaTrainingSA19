@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-18T22:15:54 IST" name="Default suite" finished-at="2024-04-18T22:16:05 IST" duration-ms="10296">
+  <suite started-at="2024-04-19T22:20:40 IST" name="Suite" finished-at="2024-04-19T22:20:58 IST" duration-ms="17819">
     <groups>
     </groups>
-    <test started-at="2024-04-18T22:15:54 IST" name="Default test" finished-at="2024-04-18T22:16:05 IST" duration-ms="10296">
-      <class name="mobileAppScenarios.Lock_Unlock_Rotate">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:mobileAppScenarios.Lock_Unlock_Rotate@7bab3f1a]" started-at="2024-04-18T22:15:54 IST" name="setUp" finished-at="2024-04-18T22:16:04 IST" duration-ms="9766" status="PASS">
+    <test started-at="2024-04-19T22:20:40 IST" name="Test" finished-at="2024-04-19T22:20:58 IST" duration-ms="17819">
+      <class name="mobileAppScenarios.AlertHandling2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mobileAppScenarios.AlertHandling2@512baff6]" started-at="2024-04-19T22:20:40 IST" name="setUp" finished-at="2024-04-19T22:20:51 IST" duration-ms="11037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLock_Unlock_Rotate()[pri:0, instance:mobileAppScenarios.Lock_Unlock_Rotate@7bab3f1a]" started-at="2024-04-18T22:16:04 IST" name="testLock_Unlock_Rotate" finished-at="2024-04-18T22:16:05 IST" duration-ms="465" status="PASS">
+        <test-method signature="testEntryDialog()[pri:0, instance:mobileAppScenarios.AlertHandling2@512baff6]" started-at="2024-04-19T22:20:51 IST" name="testEntryDialog" finished-at="2024-04-19T22:20:58 IST" duration-ms="6717" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLock_Unlock_Rotate -->
-      </class> <!-- mobileAppScenarios.Lock_Unlock_Rotate -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testEntryDialog -->
+      </class> <!-- mobileAppScenarios.AlertHandling2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
